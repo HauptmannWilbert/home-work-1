@@ -14,7 +14,55 @@ code {
 
 .lessons {
   margin: 0 auto;
+  padding: 120px 0px;
   width: 100%;
   max-width: 1024px;
   text-align: center;
+}
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #242424;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 32px;
+  color: #242424;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ea1111;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.registration__box {
+  margin-top: 60px;
+}
+.registration__box:first-child {
+  margin-top: 0px;
+}
+.registration__bottom {
+  width: 33.33333%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 5px solid #e2e2e2;
+  border-radius: 15px;
+  text-align: left;
+}
+.registration__name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #242424;
+  margin-bottom: 10px;
+}
+.registration__date {
+  font-size: 20px;
+  font-weight: 600;
+  color: #242424;
 }
