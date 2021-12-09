@@ -64,6 +64,8 @@ p {
 }
 .registration__date {
   font-size: 20px;
+  text-transform: unset;
   font-weight: 600;
   color: #242424;
+  margin: 0px;
 }
