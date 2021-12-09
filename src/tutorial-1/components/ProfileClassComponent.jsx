@@ -14,7 +14,7 @@ class ProfileClassComponent extends React.Component {
             <div className="registration__box">
                 <h2>Классовый компонент</h2>
                 <div className="registration__bottom">
-                    <div className="registration__name">Привет, <b>{name}!</b></div>
+                    <p className="registration__name">Привет, <b>{name}!</b></p>
                     <div className="registration__date">Дата регистрации: {data}</div>
                 </div>
             </div>
