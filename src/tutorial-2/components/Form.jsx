@@ -2,13 +2,14 @@ import React from 'react';
 
 function Form() {
 
-    let email = "",
-        password = "";
+    let email = "";
+    let password = "";
 
     function handleInput(event) {
         if(event.target.type === "text"){
             email = event.target.value
-        } else {
+        }
+        if(event.target.type === "text"){
             password = event.target.value
         }
     }
@@ -16,8 +17,8 @@ function Form() {
     function handleSubmit(event){
         event.preventDefault();
 
-        if(email && password){
-            event.target.reset();    
+        if(email.trim()!=="" && password.trim()!==""){
+            event.target.reset();  
             console.log({ email, password });
             email = "";
             password = "";
